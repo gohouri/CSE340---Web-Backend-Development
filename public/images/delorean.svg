@@ -2,84 +2,52 @@
   <!-- Background -->
   <rect width="400" height="200" fill="#f8fafc" stroke="#e5e7eb" stroke-width="1"/>
   
-  <!-- Modern SUV Body -->
-  <g transform="translate(30, 60)">
-    <!-- Main body - sleek and modern -->
-    <rect x="0" y="15" width="340" height="80" fill="#e5e7eb" stroke="#9ca3af" stroke-width="2" rx="8"/>
+  <!-- Modern SUV -->
+  <g transform="translate(50, 70)">
+    <!-- Main body -->
+    <rect x="0" y="20" width="300" height="70" fill="#e5e7eb" stroke="#9ca3af" stroke-width="2" rx="8"/>
     
-    <!-- Front section - aggressive styling -->
-    <rect x="0" y="20" width="100" height="70" fill="#d1d5db" stroke="#6b7280" stroke-width="1" rx="5"/>
+    <!-- Front section -->
+    <rect x="0" y="25" width="80" height="60" fill="#d1d5db" stroke="#6b7280" stroke-width="1" rx="4"/>
     
-    <!-- Rear section - sporty -->
-    <rect x="240" y="15" width="100" height="80" fill="#d1d5db" stroke="#6b7280" stroke-width="1" rx="5"/>
+    <!-- Rear section -->
+    <rect x="220" y="20" width="80" height="70" fill="#d1d5db" stroke="#6b7280" stroke-width="1" rx="4"/>
     
-    <!-- Windshield - large and modern -->
-    <polygon points="100,20 100,90 140,85 140,25" fill="#87ceeb" stroke="#4682b4" stroke-width="1" opacity="0.6"/>
+    <!-- Windshield -->
+    <polygon points="80,25 80,85 120,80 120,30" fill="#87ceeb" stroke="#4682b4" stroke-width="1" opacity="0.6"/>
     
-    <!-- Side windows - tinted -->
-    <rect x="140" y="25" width="100" height="60" fill="#1e293b" stroke="#0f172a" stroke-width="1" opacity="0.8"/>
+    <!-- Side windows -->
+    <rect x="120" y="30" width="100" height="50" fill="#1e293b" stroke="#0f172a" stroke-width="1" opacity="0.7"/>
     
-    <!-- Large wheels with modern design -->
-    <g>
-      <!-- Front wheel -->
-      <circle cx="80" cy="100" r="20" fill="#1f2937" stroke="#111827" stroke-width="2"/>
-      <circle cx="80" cy="100" r="15" fill="#374151"/>
-      <circle cx="80" cy="100" r="10" fill="#4b5563"/>
-      <circle cx="80" cy="100" r="5" fill="#6b7280"/>
-      <!-- Spoke pattern -->
-      <line x1="80" y1="85" x2="80" y2="115" stroke="#9ca3af" stroke-width="1"/>
-      <line x1="65" y1="100" x2="95" y2="100" stroke="#9ca3af" stroke-width="1"/>
-    </g>
+    <!-- Wheels -->
+    <circle cx="70" cy="95" r="18" fill="#1f2937" stroke="#111827" stroke-width="2"/>
+    <circle cx="70" cy="95" r="12" fill="#374151"/>
+    <circle cx="70" cy="95" r="6" fill="#6b7280"/>
     
-    <g>
-      <!-- Rear wheel -->
-      <circle cx="260" cy="100" r="20" fill="#1f2937" stroke="#111827" stroke-width="2"/>
-      <circle cx="260" cy="100" r="15" fill="#374151"/>
-      <circle cx="260" cy="100" r="10" fill="#4b5563"/>
-      <circle cx="260" cy="100" r="5" fill="#6b7280"/>
-      <!-- Spoke pattern -->
-      <line x1="260" y1="85" x2="260" y2="115" stroke="#9ca3af" stroke-width="1"/>
-      <line x1="245" y1="100" x2="275" y2="100" stroke="#9ca3af" stroke-width="1"/>
-    </g>
+    <circle cx="230" cy="95" r="18" fill="#1f2937" stroke="#111827" stroke-width="2"/>
+    <circle cx="230" cy="95" r="12" fill="#374151"/>
+    <circle cx="230" cy="95" r="6" fill="#6b7280"/>
     
-    <!-- Modern LED headlights -->
-    <rect x="5" y="40" width="25" height="8" fill="#fbbf24" stroke="#f59e0b" stroke-width="1" rx="2"/>
-    <rect x="5" y="50" width="25" height="8" fill="#fbbf24" stroke="#f59e0b" stroke-width="1" rx="2"/>
-    <rect x="8" y="42" width="19" height="4" fill="#ffffff" opacity="0.8"/>
-    <rect x="8" y="52" width="19" height="4" fill="#ffffff" opacity="0.8"/>
+    <!-- Headlights -->
+    <rect x="5" y="45" width="20" height="6" fill="#fbbf24" stroke="#f59e0b" stroke-width="1" rx="2"/>
+    <rect x="5" y="55" width="20" height="6" fill="#fbbf24" stroke="#f59e0b" stroke-width="1" rx="2"/>
     
-    <!-- LED taillights -->
-    <rect x="310" y="40" width="20" height="8" fill="#dc2626" stroke="#991b1b" stroke-width="1" rx="2"/>
-    <rect x="310" y="50" width="20" height="8" fill="#dc2626" stroke="#991b1b" stroke-width="1" rx="2"/>
-    <rect x="312" y="42" width="16" height="4" fill="#fca5a5" opacity="0.8"/>
-    <rect x="312" y="52" width="16" height="4" fill="#fca5a5" opacity="0.8"/>
+    <!-- Taillights -->
+    <rect x="275" y="45" width="15" height="6" fill="#dc2626" stroke="#991b1b" stroke-width="1" rx="2"/>
+    <rect x="275" y="55" width="15" height="6" fill="#dc2626" stroke="#991b1b" stroke-width="1" rx="2"/>
     
-    <!-- Modern grille with honeycomb pattern -->
-    <rect x="10" y="60" width="30" height="15" fill="#1f2937" stroke="#111827" stroke-width="1" rx="2"/>
-    <!-- Honeycomb pattern -->
-    <circle cx="18" cy="67" r="2" fill="#4b5563"/>
-    <circle cx="25" cy="67" r="2" fill="#4b5563"/>
-    <circle cx="32" cy="67" r="2" fill="#4b5563"/>
-    <circle cx="21" cy="72" r="2" fill="#4b5563"/>
-    <circle cx="28" cy="72" r="2" fill="#4b5563"/>
+    <!-- Grille -->
+    <rect x="10" y="65" width="25" height="12" fill="#1f2937" stroke="#111827" stroke-width="1" rx="2"/>
+    <line x1="15" y1="68" x2="15" y2="75" stroke="#4b5563" stroke-width="1"/>
+    <line x1="20" y1="68" x2="20" y2="75" stroke="#4b5563" stroke-width="1"/>
+    <line x1="25" y1="68" x2="25" y2="75" stroke="#4b5563" stroke-width="1"/>
+    <line x1="30" y1="68" x2="30" y2="75" stroke="#4b5563" stroke-width="1"/>
     
-    <!-- Brand logo area -->
-    <circle cx="25" cy="67" r="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
-    <text x="25" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#1f2937">MG</text>
-    
-    <!-- Side accent lines -->
-    <line x1="120" y="30" x2="240" y="30" stroke="#3b82f6" stroke-width="2"/>
-    <line x1="120" y="85" x2="240" y="85" stroke="#3b82f6" stroke-width="2"/>
-    
-    <!-- Roof rails -->
-    <rect x="110" y="10" width="120" height="3" fill="#6b7280" stroke="#4b5563" stroke-width="1" rx="1"/>
-    
-    <!-- Side mirrors -->
-    <ellipse cx="95" cy="35" rx="8" ry="4" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/>
-    <ellipse cx="95" cy="35" rx="6" ry="3" fill="#d1d5db"/>
+    <!-- Side accent -->
+    <line x1="100" y="35" x2="220" y="35" stroke="#3b82f6" stroke-width="2"/>
   </g>
   
   <!-- Title -->
   <text x="200" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1f2937">Modern SUV</text>
-  <text x="200" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Sleek & Futuristic</text>
+  <text x="200" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Sleek Design</text>
 </svg>
