@@ -1,29 +1,52 @@
 <svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
   <rect width="400" height="200" fill="#f8fafc" stroke="#e5e7eb" stroke-width="1"/>
   
-  <!-- Simple car body -->
-  <rect x="50" y="80" width="300" height="60" fill="#e5e7eb" stroke="#9ca3af" stroke-width="2" rx="5"/>
+  <!-- Car body - sleek sports car -->
+  <ellipse cx="200" cy="100" rx="140" ry="35" fill="#1e40af" stroke="#1e3a8a" stroke-width="2"/>
   
-  <!-- Front section -->
-  <rect x="50" y="90" width="80" height="40" fill="#d1d5db" stroke="#6b7280" stroke-width="1" rx="3"/>
-  
-  <!-- Rear section -->
-  <rect x="270" y="85" width="80" height="50" fill="#d1d5db" stroke="#6b7280" stroke-width="1" rx="3"/>
+  <!-- Car roof -->
+  <ellipse cx="200" cy="95" rx="120" ry="25" fill="#3b82f6" stroke="#2563eb" stroke-width="1"/>
   
   <!-- Windshield -->
-  <rect x="130" y="90" width="80" height="40" fill="#87ceeb" stroke="#4682b4" stroke-width="1" opacity="0.6"/>
+  <ellipse cx="200" cy="90" rx="100" ry="20" fill="#87ceeb" stroke="#4682b4" stroke-width="1"/>
+  
+  <!-- Front section -->
+  <ellipse cx="120" cy="105" rx="25" ry="20" fill="#1e3a8a" stroke="#1e40af" stroke-width="1"/>
+  
+  <!-- Rear section -->
+  <ellipse cx="280" cy="105" rx="25" ry="20" fill="#1e3a8a" stroke="#1e40af" stroke-width="1"/>
   
   <!-- Wheels -->
-  <circle cx="100" cy="150" r="15" fill="#1f2937" stroke="#111827" stroke-width="2"/>
-  <circle cx="300" cy="150" r="15" fill="#1f2937" stroke="#111827" stroke-width="2"/>
+  <circle cx="130" cy="135" r="18" fill="#1f2937" stroke="#111827" stroke-width="2"/>
+  <circle cx="130" cy="135" r="12" fill="#374151"/>
+  <circle cx="130" cy="135" r="6" fill="#6b7280"/>
+  
+  <circle cx="270" cy="135" r="18" fill="#1f2937" stroke="#111827" stroke-width="2"/>
+  <circle cx="270" cy="135" r="12" fill="#374151"/>
+  <circle cx="270" cy="135" r="6" fill="#6b7280"/>
   
   <!-- Headlights -->
-  <circle cx="60" cy="110" r="8" fill="#fbbf24" stroke="#f59e0b" stroke-width="1"/>
+  <circle cx="100" cy="100" r="8" fill="#fbbf24" stroke="#f59e0b" stroke-width="1"/>
+  <circle cx="100" cy="110" r="6" fill="#fbbf24" stroke="#f59e0b" stroke-width="1"/>
   
   <!-- Taillights -->
-  <circle cx="340" cy="110" r="6" fill="#dc2626" stroke="#991b1b" stroke-width="1"/>
+  <circle cx="300" cy="100" r="6" fill="#dc2626" stroke="#991b1b" stroke-width="1"/>
+  <circle cx="300" cy="110" r="5" fill="#dc2626" stroke="#991b1b" stroke-width="1"/>
+  
+  <!-- Side windows -->
+  <ellipse cx="200" cy="85" rx="80" ry="15" fill="#1e293b" stroke="#0f172a" stroke-width="1"/>
+  
+  <!-- Grille -->
+  <rect x="85" y="105" width="20" height="8" fill="#1f2937" stroke="#111827" stroke-width="1" rx="2"/>
+  <line x1="90" y1="107" x2="90" y2="111" stroke="#4b5563" stroke-width="1"/>
+  <line x1="95" y1="107" x2="95" y2="111" stroke="#4b5563" stroke-width="1"/>
+  <line x1="100" y1="107" x2="100" y2="111" stroke="#4b5563" stroke-width="1"/>
+  
+  <!-- Side accent line -->
+  <line x1="130" y1="95" x2="270" y2="95" stroke="#60a5fa" stroke-width="2"/>
   
   <!-- Title -->
-  <text x="200" y="30" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#1f2937">Modern SUV</text>
-  <text x="200" y="50" text-anchor="middle" font-family="Arial" font-size="12" fill="#6b7280">Sleek Design</text>
+  <text x="200" y="30" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#1f2937">CSE Sports Car</text>
+  <text x="200" y="50" text-anchor="middle" font-family="Arial" font-size="12" fill="#6b7280">Premium Performance</text>
 </svg>
