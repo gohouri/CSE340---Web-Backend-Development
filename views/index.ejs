@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('partials/head') %>
+</head>
+<body>
+    <%- include('partials/header') %>
+    <%- include('partials/navigation') %>
+    
+    <main class="main-content">
+        <section class="welcome-section">
+            <h2>Welcome to CSE Motors!</h2>
+        </section>
+        
+        <section class="featured-car">
+            <div class="car-info">
+                <h3 class="car-title">DMC Delorean</h3>
+                <ul class="car-features">
+                    <li>3 Cup holders</li>
+                    <li>Superman doors</li>
+                    <li>Fuzzy dice!</li>
+                </ul>
+                <button class="cta-button">Own Today</button>
+            </div>
+            <div class="car-image">
+                <img src="/images/delorean.svg" alt="DMC Delorean - Iconic sports car with gull-wing doors" class="delorean-img">
+            </div>
+        </section>
+        
+        <section class="content-grid">
+            <div class="upgrades-section">
+                <h3>Delorean Upgrades</h3>
+                <div class="upgrades-grid">
+                    <div class="upgrade-item">
+                        <img src="/images/flux-capacitor.svg" alt="Flux Capacitor upgrade" class="upgrade-icon">
+                        <span class="upgrade-name">Flux Capacitor</span>
+                    </div>
+                    <div class="upgrade-item">
+                        <img src="/images/flame-decals.svg" alt="Flame Decals upgrade" class="upgrade-icon">
+                        <span class="upgrade-name">Flame Decals</span>
+                    </div>
+                    <div class="upgrade-item">
+                        <img src="/images/bumper-stickers.svg" alt="Bumper Stickers upgrade" class="upgrade-icon">
+                        <span class="upgrade-name">Bumper Stickers</span>
+                    </div>
+                    <div class="upgrade-item">
+                        <img src="/images/hub-caps.svg" alt="Hub Caps upgrade" class="upgrade-icon">
+                        <span class="upgrade-name">Hub Caps</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="reviews-section">
+                <h3>DMC Delorean Reviews</h3>
+                <ul class="reviews-list">
+                    <li>"So fast it's almost like traveling in time." (4/5)</li>
+                    <li>"Coolest ride on the road." (4/5)</li>
+                    <li>"I'm feeling McFly!" (5/5)</li>
+                    <li>"The most futuristic ride of our day." (4.5/5)</li>
+                    <li>"80's livin and I love it!" (5/5)</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    
+    <%- include('partials/footer') %>
+</body>
+</html>
