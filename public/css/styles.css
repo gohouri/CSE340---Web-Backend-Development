@@ -113,7 +113,7 @@ body {
 .car-title {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #3b82f6;
+    color: #1e40af;
     margin-bottom: 15px;
 }
 
@@ -123,7 +123,7 @@ body {
 }
 
 .car-features li {
-    color: #3b82f6;
+    color: #1e40af;
     font-size: 1.1rem;
     margin-bottom: 8px;
     padding-left: 20px;
@@ -132,7 +132,7 @@ body {
 
 .car-features li::before {
     content: "•";
-    color: #3b82f6;
+    color: #1e40af;
     position: absolute;
     left: 0;
 }
@@ -203,7 +203,7 @@ body {
 
 .upgrade-name {
     display: block;
-    color: #3b82f6;
+    color: #1e40af;
     font-weight: 500;
     font-size: 0.9rem;
 }
@@ -218,7 +218,8 @@ body {
     padding: 12px;
     background-color: #f8fafc;
     border-radius: 6px;
-    border-left: 4px solid #3b82f6;
+    border-left: 4px solid #1e40af;
+    color: #1f2937;
 }
 
 /* Footer */
@@ -231,7 +232,7 @@ body {
 }
 
 .site-footer p {
-    color: #6b7280;
+    color: #374151;
     font-size: 0.9rem;
 }
 
