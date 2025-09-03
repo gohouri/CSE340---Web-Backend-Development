@@ -138,7 +138,7 @@ body {
 }
 
 .cta-button {
-    background-color: #3b82f6;
+    background-color: #1e40af;
     color: white;
     border: none;
     padding: 12px 24px;
@@ -150,7 +150,7 @@ body {
 }
 
 .cta-button:hover {
-    background-color: #2563eb;
+    background-color: #1d4ed8;
 }
 
 .car-image {
